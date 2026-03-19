@@ -97,9 +97,15 @@ pip install -r requirements.txt
 
 ```env
 DASHSCOPE_API_KEY=你的API_KEY
+DASHSCOPE_BASE_URL=模型服务地址
+MODEL_NAME=模型名称
+```
+
+示例（阿里百炼 Qwen）：
+
+DASHSCOPE_API_KEY=sk-xxxx
 DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 MODEL_NAME=qwen3.5-flash
-```
 
 ---
 

@@ -97,9 +97,15 @@ Create a `.env` file in the root directory:
 
 ```env
 DASHSCOPE_API_KEY=your_api_key
+DASHSCOPE_BASE_URL=your_model_url
+MODEL_NAME=your_model_name
+```
+
+Example (Qwen via DashScope):
+
+DASHSCOPE_API_KEY=sk-xxxx
 DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 MODEL_NAME=qwen3.5-flash
-```
 
 ---
 
