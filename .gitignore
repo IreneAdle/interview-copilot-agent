@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.env
+*.pyc
+*.pyo
+*.pyd
+*.log
+.vscode/
+.idea/
+data/vector_store/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Data
+data/vector_store/
+
+# OS
+.DS_Store
+Thumbs.db
