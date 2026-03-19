@@ -142,9 +142,36 @@ python tests/test_tools.py
 ## 💬 Example Usage
 
 ```text
-What is an Agent?
-(25.5 * 3 + 18) / 2
-Explain RAG, then calculate 18 / 3 + 2
+User: What is an Agent?
+
+Agent: An Agent is a system that can perceive, reason, and act to achieve specific goals. It typically combines an LLM with tools, memory, and planning capabilities.
+```
+
+```text
+User: (25.5 * 3 + 18) / 2
+
+Agent: 47.25
+```
+
+```text
+User: What did I ask previously?
+
+Agent: You previously asked about a mathematical expression: "(25.5 * 3 + 18) / 2".
+```
+
+```text
+User: Explain RAG, then calculate 18 / 3 + 2
+
+Agent:
+RAG (Retrieval-Augmented Generation) enhances LLM responses by retrieving relevant information from external knowledge sources before generating answers.
+
+Result: 18 / 3 + 2 = 8
+```
+
+```text
+User: clear
+
+System: Conversation memory cleared.
 ```
 
 ---
