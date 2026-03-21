@@ -62,7 +62,12 @@ tests/             # 基础测试脚本
 ### 1. 克隆项目
 
 ```bash
+# HTTPS (recommended)
 git clone https://github.com/IreneAdle/interview-copilot-agent.git
+
+# SSH (if configured)
+git clone git@github.com:IreneAdle/interview-copilot-agent.git
+
 cd interview-copilot-agent
 ```
 
@@ -72,13 +77,24 @@ cd interview-copilot-agent
 
 ```bash
 python -m venv .venv
+```
+
+> Linux / macOS:
+
+```bash
 source .venv/bin/activate
 ```
 
-> Windows（PowerShell）：
+> Windows (PowerShell):
 
 ```powershell
 .venv\Scripts\Activate.ps1
+```
+
+> Windows (cmd):
+
+```cmd
+.venv\Scripts\activate.bat  
 ```
 
 ---

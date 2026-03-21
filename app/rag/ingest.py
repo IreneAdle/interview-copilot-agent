@@ -21,8 +21,8 @@ def load_raw_text() -> str:
 
 def split_text(text: str) -> list[str]:
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=150,
-        chunk_overlap=30,
+        chunk_size=150, # 每个文本块的最大字符数
+        chunk_overlap=30, # 相邻文本块之间的重叠字符数
         separators=["\n\n", "\n", "。", " ", ""],
     )
     chunks = splitter.split_text(text)

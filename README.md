@@ -62,7 +62,12 @@ tests/             # Basic test scripts
 ### 1. Clone the repository
 
 ```bash
+# HTTPS (recommended)
 git clone https://github.com/IreneAdle/interview-copilot-agent.git
+
+# SSH (if configured)
+git clone git@github.com:IreneAdle/interview-copilot-agent.git
+
 cd interview-copilot-agent
 ```
 
@@ -72,6 +77,11 @@ cd interview-copilot-agent
 
 ```bash
 python -m venv .venv
+```
+
+> Linux / macOS:
+
+```bash
 source .venv/bin/activate
 ```
 
@@ -79,6 +89,12 @@ source .venv/bin/activate
 
 ```powershell
 .venv\Scripts\Activate.ps1
+```
+
+> Windows (cmd):
+
+```cmd
+.venv\Scripts\activate.bat  
 ```
 
 ---
